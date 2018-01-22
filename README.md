@@ -1,5 +1,5 @@
 # python_spider
-> This is a spider support by python for WizardQuant lab, Guangzhou.
+> This is a spider support by python for WizardQuant lab, Guangzhou. </br>
 > 创作者：柯博，胡子昂，李金清，徐嘉曼
 ---
 ## 流程图
