@@ -3,8 +3,11 @@ import numpy as np
 import re
 import requests
 
-# GetTwoArray: get two arrays from page
-# return: array1(big array), array2(small array)
+"""
+GetTwoArray: get two arrays from page
+
+:returns: array1(big array), array2(small array)
+"""
 def GetTwoTable():
     # get html
     url = "http://www.shfe.com.cn/statements/delaymarket_all.html"
