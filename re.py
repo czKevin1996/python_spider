@@ -43,3 +43,21 @@ def deal_func(table1, table2):
 #     table1_insert['year']=s2
 
     return table1_origin, df_sort_1,  df_sort_2, table2_df
+
+array1, array2 = GetTwoTable()
+print array1
+
+def metal_month(first_colummn):
+    metal = list()
+    month = list()
+    for first in first_column:
+        metal.append( first[0:2] )
+        month.append( first[2:] )
+        s1 = pd.Series( np.array(metal) )
+        s2 = pd.Series( np.array(month) )
+        return s1, s2
+  
+
+        
+
+
